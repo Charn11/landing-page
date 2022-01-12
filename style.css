@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+.container-one{
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+    flex: 1;
+}
+
+.one-within{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+
+.two-within{
+    display: flex;
+}
+
+.hero-one{
+    display: flex;
+}
+
+.hero-two{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.right-links{
+    display: flex;
+    font-size: 16px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+a:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+.two-within{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
