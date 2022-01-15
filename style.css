@@ -10,29 +10,18 @@ body{
 
 .one-within{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 10px;
     align-items: center;
-}
-
-.two-within{
-    display: flex;
-}
-
-.hero-one{
-    display: flex;
-}
-
-.hero-two{
-    display: flex;
-    width: 100px;
-    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .logo{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 600;
+    width: 370px;
 }
 
 .right-links{
@@ -51,6 +40,11 @@ a:link{
     color: #e5e7eb;
 }
 
+a:visited{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 a:hover{
     text-decoration: none;
     color: gold;
@@ -58,7 +52,118 @@ a:hover{
 
 .two-within{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 10px;
     align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 75px;
+    flex-wrap: wrap;
+}
+
+.hero-one{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    
+}
+
+.hero-two{
+    display: flex;
+    width: 600px;
+    height: 250px;
+    margin: 20px 0px;
+}
+
+#big{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+#head-p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    color: white;
+    background-color: #0066ff;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+#img-one{
+    width: 100%;
+    height: 250px;
+}
+
+.container-two{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    flex: 1;
+}
+
+.heading-one{
+    display: flex;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    justify-content: center;
+    padding: 20px;
+}
+
+.info-main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-two{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    border: 5px solid #1f2937;
+}
+
+.container-three{
+    display: flex;
+    height: 200px;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.quo-one{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    flex-shrink: 1;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    font-weight: 800;
 }
