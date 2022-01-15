@@ -1,3 +1,2 @@
-# landing-page
-
-Creating a landing page.
+# landing
+This is a landing page. Just a simple project.
